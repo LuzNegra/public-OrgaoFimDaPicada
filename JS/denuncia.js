@@ -15,6 +15,7 @@ $(document).ready(function () {
 
     function preehcherOrgaos () {
         $('#orgao_nome').text(nome + " - " + myuf);
+        $('#titulo_aba').text(nome);
     }
     function buscarDados() {
         $.ajax({
