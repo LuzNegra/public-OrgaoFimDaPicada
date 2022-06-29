@@ -1,0 +1,35 @@
+.pesquisa {
+    padding: 50px 0 50px 0;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.pesquisa > input {
+    width: 100%;
+    border: 1px solid rgb(63, 63, 63);
+    padding: 10px;
+}
+
+.pesquisa > button {
+    background-color: #F03E3E;
+    border: none;
+    /*border-radius: 10px;*/
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    width: 35%;
+    min-width: 70px;
+}
+
+table{
+    width:90%;
+    margin: auto;
+}
+table, th, td {
+    border:1px solid black;
+}
+table, th, td {
+    text-align: center;
+}

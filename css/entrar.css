@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(218, 218, 218);
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: helvetica;
+}
+.login-container {
+    margin: auto;
+    border: 1px solid #ccc;
+    width: 375px;
+    height: 350px;
+    /*border-radius: 10px;*/
+    padding: 30px;
+    background-color: white;
+    /*box-shadow: 0 10px 10px;*/
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+form > input, label, button {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(255, 0, 0);
+    margin-right: 10px;
+}
+label {
+    font-weight: bold;
+}
+
+button {
+    background-color: #F03E3E;
+    padding: 10px;
+    border: none;
+    /*border-radius: 10px;*/
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+button:hover {
+    background-color: rgb(94, 0, 0);
+    transition: .5s;
+}
+.a-1 {
+    display: inherit;
+    float: right;
+    margin: 10px 20px 20px 10px;
+}
+
